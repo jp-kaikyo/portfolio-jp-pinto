@@ -61,20 +61,33 @@ header {
     margin: 1px 10%;
 }
 
-.conteneur_acceuil {
-    padding: 25px 150px;
+
+.conteneur_information {
+    padding: 25px 5%;
+    color: var(--texte-titre);
+}
+
+
+.conteneur_histoire {
+    padding: 25px 5%;
     color: var(--texte-titre);
 }
 
 
 .conteneur_sommaire {
-    padding: 25px 150px;
+    padding: 25px 5%;
     color: var(--texte-titre);
 }
 
 
 .conteneur_competance {
-    padding: 25px 150px;
+    padding: 25px 5%;
+    color: var(--texte-titre);
+}
+
+
+.conteneur_projet {
+    padding: 25px 5%;
     color: var(--texte-titre);
 }
 
