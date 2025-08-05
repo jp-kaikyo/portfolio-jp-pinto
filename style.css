@@ -55,41 +55,46 @@ header {
 .conteneur {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     background-color: var(--font-contenu);
     border-radius: 50px;
     padding: 10px;
-    margin: 1px 10%;
+    margin: 1% 10%;
 }
 
 
 .conteneur_information {
-    padding: 25px 5%;
+    padding: 3%;
+    color: var(--texte-lien);
+    text-align: center;
+}
+
+.conteneur_histoire {
+    padding: 3%;
     color: var(--texte-lien);
 }
 
-
-.conteneur_histoire {
-    padding: 25px 5%;
-    color: var(--texte-lien);}
-
 .conteneur_sommaire {
-    padding: 25px 5%;
-    color: var(--texte-lien);}
+    padding: 3%;
+    color: var(--texte-lien);
+}
 
 .conteneur_competance {
-    padding: 25px 5%;
-    color: var(--texte-lien);}
+    padding: 3%;
+    color: var(--texte-lien);
+}
 
 .conteneur_projet {
-    padding: 25px 5%;
-    color: var(--texte-lien);}
+    padding: 3%;
+    color: var(--texte-lien);
+}
 
 section {
     text-align: center;
     background-color: var(--font-contenu);
     color: var(--texte-titre);
     padding: 100px;
-    margin: 125px 500px;
+    margin: 125px 25%;
     border-radius: 1000px;
 }
 
