@@ -41,16 +41,30 @@ header {
 
 }
 
-
 .bannier {
+    display: flex;
+    flex-direction: row;
     padding: 50px;
     margin: 50px 100px;
-    text-align: center;
     background-color: var(--font-contenu);
     border-radius: 50px;
-    color: var(--texte-titre);
 }
 
+.photo {
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.titre {
+    color: var(--texte-titre);
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
+
+.recherche {
+    margin: auto;
+    padding: 10px 10px 10px 10px;
+}
 
 .conteneur {
     display: flex;
@@ -127,8 +141,8 @@ h3 {
 /* permet de mettre tout les element sur toute la page */
 
 img {
-    max-width: 75px;
-    max-height: 75px;
+    max-width: 80px;
+    max-height: 80px;
     border-radius: 100px;
 }
 
