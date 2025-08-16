@@ -42,28 +42,28 @@ header {
 }
 
 .bannier {
-    display: flex;
-    flex-direction: row;
     padding: 50px;
-    margin: 50px 100px;
+    margin: 50px 250px;
     background-color: var(--font-contenu);
     border-radius: 50px;
 }
 
 .photo {
-    margin: auto;
-    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 .titre {
     color: var(--texte-titre);
-    margin: auto;
-    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
 }
 
 .recherche {
-    margin: auto;
-    padding: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .conteneur {
