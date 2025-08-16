@@ -43,9 +43,9 @@ header {
 
 .bannier {
     padding: 50px;
-    margin: 50px 250px;
+    margin: 25px 250px;
     background-color: var(--font-contenu);
-    border-radius: 50px;
+    border-radius: 100px;
 }
 
 .photo {
