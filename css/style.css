@@ -61,11 +61,6 @@ header {
     margin: 10px;
 }
 
-.recherche {
-    display: flex;
-    flex-direction: column;
-}
-
 .conteneur {
     display: flex;
     flex-direction: row;
