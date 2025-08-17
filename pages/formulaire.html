@@ -3,7 +3,7 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" >
-        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/formulaire.css">
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -13,7 +13,44 @@
         </header>
 
         <main>
-       
+            <section>
+                <form action="" method="get">
+                    <fieldset>
+                        <legend>information</legend>
+                        <label for="prenom">prenom :</label>
+                        <input type="text" name="prenom" id="prenom" required>
+
+                        <label for="nom">nom :</label>
+                        <input type="text" name="nom" id="nom" >
+
+                        <label for="date">votre date de naissance :</label>
+                        <input type="date" name="date" id="date" value="2025-08-17" min="1025-01-01" max="2025-08-10">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>cordonnées</legend>
+                        <label for="e-mail">email</label>
+                        <input type="e-mail" name="e-mail" id="e-mail">
+                
+                        <label for="tel">téléphone</label>
+                        <input type="tel" name="tel" id="tel">
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>vos ressentis</legend>
+                        <label for="ameliorer">Des conseils pour améliorer mon site ?</label><br>
+                        <textarea name="ameliorer" id="ameliorer">fregreg</textarea>
+                    </fieldset>
+
+                    <div class="button_direction">
+                        <input type="submit" value="Envoyer">
+                        
+                        <button onclick="window.location.href='sommaire.html'">
+                            <h1>Sur le site</h1>
+                        </button>
+                    </div>
+                </form>
+            </section>
         </main>
 
         <footer>
