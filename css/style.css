@@ -48,6 +48,11 @@ a:active {
     color: var(--objet-clic);
 }
 
+a:hover {
+    color: var(--objet-survol);
+
+}
+
 
 
 
@@ -176,10 +181,6 @@ img {
     border-radius: 100px;
 }
 
-a:hover {
-    color: var(--objet-survol);
-
-}
 
 .lien-icone {
     display: flex;
