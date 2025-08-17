@@ -1,0 +1,22 @@
+.vertical {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+section {
+    text-align: center;
+    background-color: var(--font-contenu);
+    color: var(--texte-titre);
+    padding: 60px 30px 60px 30px;
+    margin: 9% 0% 10% 0%;
+    border-radius: 100px 100px 1000px 1000px;
+}
+
+
+h3 {
+    padding: 0px 0px 25px 0px;
+    font-style: italic;
+    font-family: Arial, sans-serif;
+    color:var(--texte-titre)
+}

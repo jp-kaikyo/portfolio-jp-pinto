@@ -11,6 +11,13 @@ a {
     color: var(--texte-lien);
 }
 
+
+
+
+
+
+
+
 /* variable des couleur */
 
 :root {
@@ -26,6 +33,12 @@ a {
 }
 
 
+
+
+
+
+
+
 body {
     display: flex ; /* pour activer flex */
     height: 100vh ; /* pour prendre tout la place de la fenetre */
@@ -36,43 +49,21 @@ body {
 }
 
 
-header {
-    text-align: center;
-}
 
-.bannier {
-    padding: 50px;
-    margin: 25px 250px;
-    background-color: var(--font-contenu);
-    border-radius: 100px;
-}
 
-.photo {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
 
-.titre {
-    color: var(--texte-titre);
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-}
+
+
 
 .conteneur {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--font-contenu);
-    border-radius: 5px 50px 5px 50px;
+    border-radius: 0px 0px 100px 100px;
     padding: 10px;
-    margin: 1% 10%;
+    margin: 0% 10% 5% 10%;
 }
-
-
-
-
 
 
 
@@ -185,23 +176,6 @@ header {
 
 
 
-section {
-    text-align: center;
-    background-color: var(--font-contenu);
-    color: var(--texte-titre);
-    padding: 100px;
-    margin: 125px 25%;
-    border-radius: 1000px;
-}
-
-h3 {
-    margin: 25px;
-    font-style: italic;
-    font-family: Arial, sans-serif;
-    color:var(--texte-titre)
-}
-
-
 /* permet de mettre tout les element sur toute la page */
 
 img {
@@ -227,7 +201,7 @@ a:active {
     justify-content: space-around;
     margin: 100px;
     background-color: var(--font-contenu);
-    padding: 25px;
-    margin: 100px 200px;
-    border-radius: 50px 50px 5px 5px;
+    padding: 25px 5px 10px 5px;
+    margin: 0% 10% 10% 10%;
+    border-radius: 100px 100px 0px 0px;
 }
