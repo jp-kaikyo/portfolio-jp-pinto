@@ -38,7 +38,6 @@ body {
 
 header {
     text-align: center;
-
 }
 
 .bannier {
@@ -64,7 +63,7 @@ header {
 .conteneur {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     background-color: var(--font-contenu);
     border-radius: 5px 50px 5px 50px;
     padding: 10px;
@@ -72,31 +71,119 @@ header {
 }
 
 
+
+
+
+
+
+
 .conteneur_information {
     padding: 3%;
-    color: var(--texte-lien);
-    text-align: center;
+    color: var(--texte-titre);
+    background-color: var(--font-contenu);
+    border: 2px solid transparent;
+    border-radius: 100px;
 }
+
+.conteneur_information:hover {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_information.active_information {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+
+
 
 .conteneur_histoire {
     padding: 3%;
-    color: var(--texte-lien);
+    color: var(--texte-titre);
+    background-color: var(--font-contenu);
+    border: 2px solid transparent;
+    border-radius: 100px;
 }
+
+.conteneur_histoire:hover {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_histoire.active_histoire {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+
+
 
 .conteneur_sommaire {
     padding: 3%;
-    color: var(--texte-lien);
+    color: var(--texte-titre);
+    background-color: var(--font-contenu);
+    border: 2px solid transparent;
+    border-radius: 100px;
 }
+
+.conteneur_sommaire:hover {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_sommaire.active_sommaire {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+
 
 .conteneur_competance {
     padding: 3%;
-    color: var(--texte-lien);
+    color: var(--texte-titre);
+    background-color: var(--font-contenu);
+    border: 2px solid transparent;
+    border-radius: 100px;
 }
+
+.conteneur_competance:hover {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_competance.active_competance {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+
+
 
 .conteneur_projet {
     padding: 3%;
-    color: var(--texte-lien);
+    color: var(--texte-titre);
+    background-color: var(--font-contenu);
+    border: 2px solid transparent;
+    border-radius: 100px;
 }
+
+.conteneur_projet:hover {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_projet.active_projet {
+    border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+
+
+
+
+
+
 
 section {
     text-align: center;
@@ -106,24 +193,6 @@ section {
     margin: 125px 25%;
     border-radius: 1000px;
 }
-
-a:hover {
-    color: var(--objet-survol);
-}
-
-a:active {
-    color: var(--objet-clic);
-}
-
-
-h2:hover {
-    color: var(--objet-survol);
-}
-
-h2:active {
-    color: var(--objet-clic);
-}
-
 
 h3 {
     margin: 25px;
@@ -143,6 +212,15 @@ img {
 
 
 /* pour espacer de 200 pixel les logo du font du site */
+
+a:hover {
+    color: var(--objet-survol);
+
+}
+
+a:active {
+    color: var(--objet-clic);
+}
 
 .lien-icone {
     display: flex;
