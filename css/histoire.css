@@ -1,3 +1,5 @@
+/* contenu de l'âge (bulle) */
+
 .bulle_petite {
     background-color: var(--font-contenu);
     color: var(--texte-titre);

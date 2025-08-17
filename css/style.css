@@ -3,19 +3,6 @@
 }
 
 
-p {
-    color: var(--texte-courant);
-}
-
-a {
-    color: var(--texte-lien);
-}
-
-
-
-
-
-
 
 
 /* variable des couleur */
@@ -35,10 +22,6 @@ a {
 
 
 
-
-
-
-
 body {
     display: flex ; /* pour activer flex */
     height: 100vh ; /* pour prendre tout la place de la fenetre */
@@ -51,9 +34,24 @@ body {
 
 
 
+/* couleur texte divers */
+
+p {
+    color: var(--texte-courant);
+}
+
+a {
+    color: var(--texte-lien);
+}
+
+a:active {
+    color: var(--objet-clic);
+}
 
 
 
+
+/* bannière des titres de la page */
 
 .conteneur {
     display: flex;
@@ -64,8 +62,6 @@ body {
     padding: 10px;
     margin: 0% 10% 5% 10%;
 }
-
-
 
 
 .conteneur_information {
@@ -172,11 +168,7 @@ body {
 
 
 
-
-
-
-
-/* permet de mettre tout les element sur toute la page */
+/* logo de fin de page */
 
 img {
     max-width: 80px;
@@ -184,16 +176,9 @@ img {
     border-radius: 100px;
 }
 
-
-/* pour espacer de 200 pixel les logo du font du site */
-
 a:hover {
     color: var(--objet-survol);
 
-}
-
-a:active {
-    color: var(--objet-clic);
 }
 
 .lien-icone {
