@@ -91,6 +91,21 @@ a:hover {
     background-color: var(--font-contours);
 }
 
+.conteneur_information:hover {
+    color: var(--objet-survol);
+    background-color: var(--font-contours);
+}
+
+.conteneur_information:active {
+    color: var(--objet-clic);
+    background-color: var(--font-contours);
+}
+
+.active_information {
+    color: var(--objet-permanent);
+    background-color: var(--font-contours);
+}
+
 
 
 
@@ -109,6 +124,21 @@ a:hover {
 
 .conteneur_histoire.active_histoire {
     border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_histoire:hover {
+    color: var(--objet-survol);
+    background-color: var(--font-contours);
+}
+
+.conteneur_histoire:active {
+    color: var(--objet-clic);
+    background-color: var(--font-contours);
+}
+
+.active_histoire {
+    color: var(--objet-permanent);
     background-color: var(--font-contours);
 }
 
@@ -133,6 +163,21 @@ a:hover {
     background-color: var(--font-contours);
 }
 
+.conteneur_sommaire:hover {
+    color: var(--objet-survol);
+    background-color: var(--font-contours);
+}
+
+.conteneur_sommaire:active {
+    color: var(--objet-clic);
+    background-color: var(--font-contours);
+}
+
+.active_sommaire {
+    color: var(--objet-permanent);
+    background-color: var(--font-contours);
+}
+
 
 
 .conteneur_competance {
@@ -150,6 +195,21 @@ a:hover {
 
 .conteneur_competance.active_competance {
     border: 2px solid gray;
+    background-color: var(--font-contours);
+}
+
+.conteneur_competance:hover {
+    color: var(--objet-survol);
+    background-color: var(--font-contours);
+}
+
+.conteneur_competance:active {
+    color: var(--objet-clic);
+    background-color: var(--font-contours);
+}
+
+.active_competance {
+    color: var(--objet-permanent);
     background-color: var(--font-contours);
 }
 
@@ -173,6 +233,22 @@ a:hover {
     border: 2px solid gray;
     background-color: var(--font-contours);
 }
+
+.conteneur_projet:hover {
+    color: var(--objet-survol);
+    background-color: var(--font-contours);
+}
+
+.conteneur_projet:active {
+    color: var(--objet-clic);
+    background-color: var(--font-contours);
+}
+
+.active_projet {
+    color: var(--objet-permanent);
+    background-color: var(--font-contours);
+}
+
 
 
 
