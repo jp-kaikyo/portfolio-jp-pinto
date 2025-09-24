@@ -3,8 +3,9 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/projet.css">
+        <script src="../script/script.js"></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -14,25 +15,25 @@
         <!-- bannière des pages -->
 
         <header>
-            <nav class="conteneur">
-                <button class="conteneur_information" onclick="window.location.href='information.html'">
-                    <h2>Information</h2>
-                </button>
-
-                <button class="conteneur_histoire" onclick="window.location.href='histoire.html'">
-                    <h2>Histoire</h2>
+            <nav class="bulle_principal">
+                <button class="bulle_action" onclick="window.location.href='information.html'">
+                    <h1>Information</h1>
                 </button>
                 
-                <button class="conteneur_sommaire" onclick="window.location.href='sommaire.html'">
-                    <h2>Sommaire</h2>
+                <button class="bulle_action" onclick="window.location.href='sommaire.html'">
+                    <h1>Sommaire</h1>
                 </button>
 
-                <button class="conteneur_competance" onclick="window.location.href='competance.html'">
-                    <h2>Competance</h2>
+                <div>
+                    <img class="photo" src="../img/photo.jpg" alt="joao paulo">
+                </div>
+
+                <button class="bulle_action" onclick="window.location.href='competance.html'">
+                    <h1>Competance</h1>
                 </button>
 
-                <button class="conteneur_projet active_projet" onclick="window.location.href='projet.html'">
-                    <h2>Projet</h2>
+                <button class="bulle_action" onclick="window.location.href='projet.html'">
+                    <h1>Projet</h1>
                 </button>
             </nav>
         </header>
@@ -40,30 +41,28 @@
 
         <!-- contenu de la page -->
 
+
+
         <main>
-            <div class="bulle_grande">
-                <section>
-                    <h3 id="plan_de_route">Plan de route</h3>
+            <section class="bulle_secondaire">
+                <div class="bulle_info">
+                    <h2>Plan de route</h2>
 
                     <p> Je compte tout mettre en œuvre pour devenir développeur web,  
                         en simultané je développerai mes compétences de créateur de jeux et continuer mes projets de vidéo sur YouTube,  
                         tout cela me permettra de multiplier mes compétences et projets.  
                     </p>
-                </section>
-            </div>
-            
-            <div class="bulle_petite">
-                <section>
-                    <h3 id="futur_projet">Futur projet</h3>
+                </div>
+
+                <div class="bulle_info">
+                    <h2>Futur projet</h2>
 
                     <p>Développeur web.</p>
-                    <p>Développeur de jeux.</p>
-                </section>
-            </div>
-            
-            <div class="bulle_petite">
-                <section>
-                    <h3 id="projet_actuelle">Projet actuelle</h3>
+                    <p>Développeur de jeux.</p>      
+                </div>
+
+                <div class="bulle_info">
+                    <h2 id="projet_actuelle">Projet actuelle</h2>
 
                     <p><a target="_blank" href="https://github.com/jp-kaikyo/perso-site-web-portfolio-de-joao-paulo">Portoflio de Joao-Paulo Pinto-Queiros</a></p>
                     <p><a target="_blank" href="https://github.com/jp-kaikyo/perso-jeux-triple-carte">Jeux Triple Carte (pierre feuille ciseau)</a></p>
@@ -71,32 +70,21 @@
                     <p>Stream et rediffusion de contenu<br>
                         sur Twitch et YouTube.
                     </p>
-                </section>
-            </div>
+                </div>
+            </section>
         </main>
+
 
         <!-- lien vert reseaux socieaux -->
 
-        <footer id="jp" class="lien-icone">
-            <a target="_blank" href="https://www.tiktok.com/@jp_kaikyo">
-                <img src="../image/tiktok.jpg" alt="TikTok">
-            </a>
-
-            <a target="_blank" href="https://www.instagram.com/jp_kaikyo/?next=%2F">
-                <img src="../image/insta.jpg" alt="Instagram">
-            </a>
-
-            <a target="_blank" href="https://github.com/jp-kaikyo">
-                <img src="../image/github.jpg" alt="GitHub">
-            </a>
-
-            <a target="_blank" href="https://www.youtube.com/@Joao-Paulo-Pinto-Queiros">
-                <img src="../image/youtube.jpg" alt="YouTube">
-            </a>
-
-            <a target="_blank" href="https://www.twitch.tv/jp_kaikyo">
-                <img src="../image/twitch.jpg" alt="Twitch">
-            </a>
+        <footer>
+            <nav class="bulle_lien">
+                <h2>~ Réseaux sociaux ~</h2>
+                <a target="_blank" href="https://www.tiktok.com/@jp_kaikyo"><img class="logo" src="../img/tiktok.png" alt="tiktok" ></a>
+                <a target="_blank" href="https://www.instagram.com/jp_kaikyo_art/"><img class="logo" src="../img/insta.png" alt="insta"></a>
+                <a target="_blank" href="https://www.twitch.tv/jp_kaikyo"><img class="logo" src="../img/twitch.png" alt="twitch"></a>
+                <a target="_blank" href="https://www.youtube.com/@Joao-Paulo-Pinto-Queiros"><img class="logo" src="../img/youtube.png" alt="youtube"></a>
+            </nav>
         </footer>
     </body>
 </html>

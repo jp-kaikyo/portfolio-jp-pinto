@@ -3,8 +3,9 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/information.css">
+        <script src="../script/script.js"></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -14,25 +15,25 @@
         <!-- bannière des pages -->
 
         <header>
-            <nav class="conteneur">
-                <button class="conteneur_information active_information" onclick="window.location.href='information.html'">
-                    <h2>Information</h2>
-                </button>
-
-                <button class="conteneur_histoire" onclick="window.location.href='histoire.html'">
-                    <h2>Histoire</h2>
+            <nav class="bulle_principal">
+                <button class="bulle_action" onclick="window.location.href='information.html'">
+                    <h1>Information</h1>
                 </button>
                 
-                <button class="conteneur_sommaire" onclick="window.location.href='sommaire.html'">
-                    <h2>Sommaire</h2>
+                <button class="bulle_action" onclick="window.location.href='sommaire.html'">
+                    <h1>Sommaire</h1>
                 </button>
 
-                <button class="conteneur_competance" onclick="window.location.href='competance.html'">
-                    <h2>Competance</h2>
+                <div>
+                    <img class="photo" src="../img/photo.jpg" alt="joao paulo">
+                </div>
+
+                <button class="bulle_action" onclick="window.location.href='competance.html'">
+                    <h1>Competance</h1>
                 </button>
 
-                <button class="conteneur_projet" onclick="window.location.href='projet.html'">
-                    <h2>Projet</h2>
+                <button class="bulle_action" onclick="window.location.href='projet.html'">
+                    <h1>Projet</h1>
                 </button>
             </nav>
         </header>
@@ -40,13 +41,14 @@
 
         <!-- contenu de la page -->
 
-        <main>
-            <div class="bulle_petite">
-                <section>
-                    <h3 id="moi">Moi</h3>
 
-                    <a href="../image/photo_de_profil.jpg">
-                        <img src="../image/photo_de_profil.jpg" alt="joao paulo">
+        <main>
+            <section class="bulle_secondaire">
+                <div class="bulle_info">
+                    <h2 id="moi">Moi</h2>
+
+                    <a href="../img/photo.jpg">
+                        <img class="photo" src="../img/photo.jpg" alt="joao paulo">
                     </a>
                     
                     <p>Prénom : Joao Paulo.</p>
@@ -54,43 +56,29 @@
                     <p>Âge : 19 ans.</p>
                     <p>Née à : Montauban.</p>
                     <p>Genre : Homme.</p>
-                </section>
-            </div>
-
-            <div class="bulle_petite">
-                <section>
-                    <h3 id="passion">Passion</h3>
+                </div>
+            
+                <div class="bulle_info">
+                    <h2 id="passion">Passion</h2>
 
                     <p>Informatique.</p>
                     <p>Création tous genres (art - jeux - vidéo).</p>
-                    <p>activiter physique (musculation - sport).</p>
-                </section>
-            </div>
+                    <p>activiter physique (musculation - sport).</p>      
+                </div>
+            </section>
         </main>
-       
+
 
         <!-- lien vert reseaux socieaux -->
 
-        <footer id="jp" class="lien-icone">
-            <a target="_blank" href="https://www.tiktok.com/@jp_kaikyo">
-                <img src="../image/tiktok.jpg" alt="TikTok">
-            </a>
-
-            <a target="_blank" href="https://www.instagram.com/jp_kaikyo/?next=%2F">
-                <img src="../image/insta.jpg" alt="Instagram">
-            </a>
-
-            <a target="_blank" href="https://github.com/jp-kaikyo">
-                <img src="../image/github.jpg" alt="GitHub">
-            </a>
-
-            <a target="_blank" href="https://www.youtube.com/@Joao-Paulo-Pinto-Queiros">
-                <img src="../image/youtube.jpg" alt="YouTube">
-            </a>
-
-            <a target="_blank" href="https://www.twitch.tv/jp_kaikyo">
-                <img src="../image/twitch.jpg" alt="Twitch">
-            </a>
+        <footer>
+            <nav class="bulle_lien">
+                <h2>~ Réseaux sociaux ~</h2>
+                <a target="_blank" href="https://www.tiktok.com/@jp_kaikyo"><img class="logo" src="../img/tiktok.png" alt="tiktok" ></a>
+                <a target="_blank" href="https://www.instagram.com/jp_kaikyo_art/"><img class="logo" src="../img/insta.png" alt="insta"></a>
+                <a target="_blank" href="https://www.twitch.tv/jp_kaikyo"><img class="logo" src="../img/twitch.png" alt="twitch"></a>
+                <a target="_blank" href="https://www.youtube.com/@Joao-Paulo-Pinto-Queiros"><img class="logo" src="../img/youtube.png" alt="youtube"></a>
+            </nav>
         </footer>
     </body>
 </html>

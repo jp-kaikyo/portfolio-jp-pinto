@@ -3,7 +3,9 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8" >
-        <link rel="stylesheet" href="css/index.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="../script/script.js"></script>
         <title>Portoflio de joao paulo</title>
     </head>
 
@@ -18,37 +20,13 @@
                     <fieldset>
                         <legend>information</legend>
                         <label for="prenom">prenom :</label>
-                        <input type="text" name="prenom" id="prenom" required>
-
-                        <label for="nom">nom :</label>
-                        <input type="text" name="nom" id="nom" >
+                        <input type="text" name="prenom" id="prenom" required><br>
 
                         <label for="date">votre date de naissance :</label>
                         <input type="date" name="date" id="date" value="2025-08-17" min="1025-01-01" max="2025-08-10">
-                    </fieldset>
 
-                    <fieldset>
-                        <legend>cordonnées</legend>
-                        <label for="e-mail">email</label>
-                        <input type="e-mail" name="e-mail" id="e-mail">
-                
-                        <label for="tel">téléphone</label>
-                        <input type="tel" name="tel" id="tel">
+                        <button class="btn_base" onclick="window.location.href='pages/sommaire.html'">entrée</button>
                     </fieldset>
-                    
-                    <fieldset>
-                        <legend>vos ressentis</legend>
-                        <label for="ameliorer">Des conseils pour améliorer mon site ?</label><br>
-                        <textarea name="ameliorer" id="ameliorer">fregreg</textarea>
-                    </fieldset>
-
-                    <div class="button_direction">
-                        <input type="submit" value="Envoyer">
-                        
-                        <button onclick="window.location.href='pages/sommaire.html'">
-                            <h1>Sur le site</h1>
-                        </button>
-                    </div>
                 </form>
             </section>
         </main>
